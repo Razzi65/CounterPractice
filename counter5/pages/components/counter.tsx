@@ -21,8 +21,13 @@ const Counter = () => {
         I have {sibling} siblings.  <br />
 
         <Button name='Get Age' increment={() => getage()} />
-
         <Button name='Get Sibling' increment={() => getsiblings()} />
+        <br/> 
+
+        <Button name='Reset Sibling' increment={() => getsibling(0)} />
+        <Button name='Reset Age' increment={() => setage(0)} />
+
+
     </div>
     )
 }
